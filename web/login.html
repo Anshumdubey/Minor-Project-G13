@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinePayGo Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Background and Login Container -->
+    <div class="login-container">
+        <!-- Logo and Heading -->
+        <div class="header">
+            <img src="fine pay go.png" alt="FinePayGo Logo">
+            <h1>Welcome to FinePayGo</h1>
+            <p>Traffic Challan Management System</p>
+        </div>
+
+        <!-- Login Form -->
+        <form action="LoginServlet" method="post" class="login-form">
+            <h2>Login</h2>
+            <div class="input-box">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="input-box">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="button-container">
+                <a class="Btn"
+                        style="color: black; background-color: white; border: 1px solid black; margin-left: 15px;"
+                        href="index.html">Log In</a>
+               
+            </div>
+            <a href="registration.html">Sing Up</a>
+            <p class="footer-text">Not registered? Contact your admin.</p>
+        </form>
+    </div>
+</body>
+</html>
